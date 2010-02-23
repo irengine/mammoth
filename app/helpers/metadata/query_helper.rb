@@ -1,0 +1,2 @@
+module Metadata::QueryHelper
+end
