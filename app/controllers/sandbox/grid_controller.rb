@@ -3,10 +3,6 @@ class Sandbox::GridController < ApplicationController
   end
 
   def get_data
-    render :text => ""
-  end
-
-  def get_column_model
     column_model =
 <<CM
 {

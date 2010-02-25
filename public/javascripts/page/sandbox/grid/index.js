@@ -3,7 +3,7 @@ Ext.onReady(function() {
 
     var grid = new Ext.ux.DynamicGridPanel({
         id: 'my-grid',
-        storeUrl: '/sandbox/grid/get_column_model',
+        storeUrl: '/sandbox/grid/get_data',
         rowNumberer: true,
         checkboxSelModel: true,
         sm: new Ext.grid.CheckboxSelectionModel()
